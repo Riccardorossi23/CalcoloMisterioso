@@ -17,5 +17,22 @@ namespace CalcoloMisterioso
             return s;
 
         }
+        public static double CalcoloMisterioso2(double[] v)
+        {
+            double s = 1;
+            if (v.Length==1)
+            {
+                s = double.NaN;
+            }
+            else
+            {
+                for (int i = 0; i < v.Length; i++)
+                     s= s * v[i];
+                    
+            }
+            return s;
+
+
+        }
     }
 }
