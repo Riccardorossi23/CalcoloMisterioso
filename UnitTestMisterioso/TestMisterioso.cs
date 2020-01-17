@@ -12,6 +12,7 @@ namespace UnitTestMisterioso
             double numero_attuale = CalcoloMisterioso.CalcoloMisterioso.CalcoloMisterioso1(v);
             double risposta_aspettato = 9;
             Assert.AreEqual(risposta_aspettato, numero_attuale);
+
         }
     }
 }
