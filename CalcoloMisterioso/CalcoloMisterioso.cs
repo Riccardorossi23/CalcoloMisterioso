@@ -22,7 +22,8 @@ namespace CalcoloMisterioso
             double s = 1;
             if (v.Length==1)
             {
-                s = double.NaN;
+                for (int i = 0; i < v.Length; i++)
+                    s=v[i];
             }
             else
             {
